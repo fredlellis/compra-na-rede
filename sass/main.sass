@@ -1,0 +1,133 @@
+$default-margin: 8.33333333%
+
+// media queries baby
+
+%header-top-message
+    position: absolute
+    top: -35px
+    color: white
+
+.no-margin
+    margin: 0 !important
+
+.btn, .btn:focus, .btn:active
+    outline: none
+
+.navbar
+    border-radius: 0
+    margin-bottom: 0
+
+    .container-fluid
+        padding-right: 0
+
+.navbar-brand
+    font-weight: bold
+
+.avatar-nav
+    a
+        padding-left: 55px !important
+
+    img
+        position: absolute
+        width: 40px
+        top: 5px
+        left: 10px
+
+.bg-red
+    background-color: #d9534f
+
+.messages
+    min-width: 54px
+    min-height: 50px
+
+    a
+        min-width: 54px
+        min-height: 50px
+
+    .glyphicon-bell
+        font-size: 25px
+        position: absolute
+        top: 13px
+
+    .badge
+        position: absolute
+        font-size: 9px
+        bottom: 14px
+        right: 5px
+
+.place-image
+    background-repeat: no-repeat
+    background-position: center
+    -webkit-background-size: cover
+    background-size: cover
+    padding-top: 100px
+
+    h1, h2
+        color: white
+
+.list-navbar
+    margin-top: 75px
+
+    .navbar-nav
+        padding-left: 115px
+
+        > li > a
+            padding-top: 20px
+            padding-bottom: 20px
+
+.list-avatar
+    position: absolute
+    top: -65px
+    left: 15px
+    border: 3px solid white
+
+.organized-by
+    @extend %header-top-message
+    left: 130px
+
+.closing-date
+    @extend %header-top-message
+
+.mini-cart
+    background-color: #ccc
+    padding: 9px 14px 5px
+
+    .mini-cart-icon
+        margin-right: 8px
+
+.value
+    font-size: 24px
+    line-height: 24px
+
+.ship
+    position: relative
+    top: -4px
+
+.ship, .products
+    color: #666
+
+.mini-cart-icon
+    background-color: #333
+    -webkit-border-radius: 100%
+    -moz-border-radius: 100%
+    -ms-border-radius: 100%
+    -o-border-radius: 100%
+    border-radius: 100%
+    color: white
+    width: 40px
+    height: 40px
+    float: left
+
+    span
+        position: relative
+        top: 10px
+        left: 10px
+        font-size: 20px
+
+.checkout-button-wrapper
+    padding: 7px 7px 0 0
+
+.products-list
+    li
+        float: none
+        clear: both
