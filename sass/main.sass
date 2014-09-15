@@ -1,6 +1,5 @@
 $default-margin: 8.33333333%
 $green: #449d44
-// media queries baby
 
 %header-top-message
     position: absolute
@@ -65,7 +64,7 @@ $green: #449d44
     background-size: cover
     padding-top: 100px
 
-    h1, h2
+    h1, h4
         color: white
 
 .list-navbar
@@ -173,7 +172,8 @@ section
 
     .quantity
         color: #666
-        font-size: 16px
+        font-size: 15px
+        padding-left: 55px
 
         > span
             display: inline-block
@@ -357,3 +357,12 @@ section
     overflow-y: scroll
     overflow-x: hidden
     max-height: 460px
+
+
+@media (max-width: 1071px)
+    .products-list
+        .quantity
+            font-size: 13px
+
+            input.form-control
+                width: 30%
