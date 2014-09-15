@@ -1,5 +1,5 @@
 $default-margin: 8.33333333%
-
+$green: #449d44
 // media queries baby
 
 %header-top-message
@@ -35,6 +35,9 @@ $default-margin: 8.33333333%
 
 .bg-red
     background-color: #d9534f
+
+.text-red
+    color: #d9534f
 
 .messages
     min-width: 54px
@@ -127,13 +130,68 @@ $default-margin: 8.33333333%
 .checkout-button-wrapper
     padding: 7px 7px 0 0
 
+section
+    margin-bottom: 75px
+    clear: both
+
+    &.last
+        margin-bottom: 120px
+        overflow: hidden
+
+    p
+        clear: both
+
 .products-list
-    ol, p
+    ol
         clear: both
 
     li
         float: none
         clear: both
+        margin-bottom: 25px
+
+    .image img
+        border: 1px solid #ccc
+        float: left
+        margin-right: 15px
+
+    .info
+        float: left
+
+    h4
+        font-size: 21px
+
+    .price
+        font-weight: bold
+        font-size: 18px
+        padding-top: 10px
+
+        .obs
+            font-weight: normal
+            color: #555
+            margin-left: 3px
+
+    .quantity
+        color: #666
+        font-size: 16px
+
+        > span
+            display: inline-block
+            margin-bottom: 6px
+
+        input.form-control
+            width: 45%
+            float: left
+            margin-right: 10px
+
+        .glyphicon
+            color: $green
+            font-size: 32px
+            cursor: pointer
+
+            &:hover
+                opacity: 0.8
+
 
 .icon-title
     margin-bottom: 25px
@@ -184,6 +242,8 @@ $default-margin: 8.33333333%
         position: relative
         left: 51px
         top: -7px
+        width: 70%
+        color: #999
 
         .glyphicon
             margin: 0 2px 0 3px
@@ -194,10 +254,106 @@ $default-margin: 8.33333333%
                 margin-left: 2px
 
         .glyphicon-plus-sign
-            color: #449d44
+            color: $green
 
         .glyphicon-map-marker
             color: #5bc0de
 
         .glyphicon-comment
-            color: #449d44
+            color: $green
+
+#map
+    height: 300px
+    margin-top: 25px
+    background-color: #eee
+    margin-left: 50px
+
+.select-msg
+    margin-left: 66px
+    border: 2px dashed #ccc
+    margin-top: 25px
+    -webkit-border-radius: 6px
+    -moz-border-radius: 6px
+    -ms-border-radius: 6px
+    -o-border-radius: 6px
+    border-radius: 6px
+    text-align: center
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    color: #aaa
+    font-size: 20px
+    padding: 30px 20px
+
+.map-form
+    margin-top: 25px
+    font-size: 17px
+
+    .checkbox
+        span
+            display: inline-block
+            color: #aaa
+            font-size: 15px
+
+.participants-list
+    ul
+        list-style-type: none
+        clear: both
+        overflow: hidden
+        margin: 30px 0 0 20px
+        padding: 0
+
+        li
+            float: left
+            width: 16.666%
+            margin-bottom: 45px
+
+            img
+                width: 96px
+                margin: 0 auto
+                display: block
+                margin-bottom: 7px
+
+            .glyphicon
+                color: $green
+                font-size: 25px
+                cursor: pointer
+
+                &:hover
+                    opacity: 0.8
+
+.map-navbar
+    border-top: 1px solid #e7e7e7
+    padding-top: 15px
+    margin-top: 40px
+
+    .form-group
+        position: relative
+
+        .glyphicon
+            position: absolute
+            right: 10px
+            top: 10px
+
+.conversation
+    border-bottom: 1px solid #ddd
+    padding-bottom: 15px
+
+    img
+        width: 50px
+        height: 50px
+        margin: 30px auto 10px
+        display: block
+
+    .text p
+        font-size: 17px
+        padding-top: 20px
+        width: 90%
+
+    &.answer
+        background-color: #eee
+
+.conversations
+    overflow-y: scroll
+    overflow-x: hidden
+    max-height: 460px

@@ -113,23 +113,55 @@
             <ol>
               <li class="row">
                 <div class="col-md-8">
-                  <h4>Tablete de 80g - 60% Cacau</h4>
+                  <div class="image">
+                    <img src="images/embalagem.jpg" class="img-rounded" width="100" height="110">
+                  </div>
+                  <div class="info">
+                    <h4>Tablete de 80g - 60% Cacau</h4>
+                    <p class="text-red">Ainda faltam X unidades para completarmos X caixas.</p>
+                    <div class="price">
+                      R$ 10,50
+                      <span class="obs">/ unidade</span>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-2">
-                  Quantidade desejada
+                <div class="col-md-2 quantity">
+                  <span>Quantidade desejada</span>
+                  <form action="" role="form">
+                    <div class="form-group">
+                      <input type="text" placeholder="0" class="form-control">
+                      <span class="glyphicon glyphicon-plus-sign"></span>
+                    </div>
+                  </form>
                 </div>
               </li>
               <li class="row">
                 <div class="col-md-8">
-                  <h4>Tablete de 80g - 60% Cacau</h4>
+                  <div class="image">
+                    <img src="images/embalagem.jpg" class="img-rounded" width="100" height="110">
+                  </div>
+                  <div class="info">
+                    <h4>Tablete de 80g - 60% Cacau</h4>
+                    <p class="text-red">Ainda faltam X unidades para completarmos X caixas.</p>
+                    <div class="price">
+                      R$ 10,50
+                      <span class="obs">/ unidade</span>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-2">
-                  Quantidade desejada
+                <div class="col-md-2 quantity">
+                  <span>Quantidade desejada</span>
+                  <form action="" role="form">
+                    <div class="form-group">
+                      <input type="text" placeholder="0" class="form-control">
+                      <span class="glyphicon glyphicon-plus-sign"></span>
+                    </div>
+                  </form>
                 </div>
               </li>
             </ol>
           </section>
-          <section class="products-list">
+          <section class="distribuition-list">
             <div class="icon-title">
               <div class="distribuition-icon circle">
                 <span class="glyphicon glyphicon-map-marker"></span>
@@ -137,8 +169,32 @@
               <h3>Distribuição</h3>
               <p>Os pontos marcados no mapa com <span class="glyphicon glyphicon-map-marker"></span> são os endereços nos quais você poderá buscar sua encomenda. Você também pode solicitar a retirada por outros usuário participantes ou não da lista. </p>
             </div>
+            <div id="map"></div>
+            <div class="row">
+              <div class="col-md-3 select-msg">
+                Selecione no mapa onde você vai buscar o produto
+              </div>
+              <div class="col-md-7 col-md-offset-1 map-form">
+                <form action="" role="form">
+                  <div class="form-group">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Quero buscar os produtos com um usuário que não participa desta lista.
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Quero ser um redistribuidor nesta lista. <span>Marcando esta opção, os participantes desta lista poderão optar por buscar os produtos que comprarem no seu endereço.</span>
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
           </section>
-          <section class="products-list">
+          <section class="participants-list">
             <div class="icon-title">
               <div class="participants-icon circle">
                 <span class="glyphicon glyphicon-user"></span>
@@ -146,8 +202,180 @@
               <h3>Participantes</h3>
               <p>Caso queira entrar em contato com algum participante em perticular, utilize <span class="glyphicon glyphicon-comment"></span>.</p>
             </div>
+            <ul>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+              <li>
+                <img src="images/avatar.jpg" class="img-circle">
+                <div class="text-center">
+                  <p>Tatiana Dutra Perez</p>
+                  <span class="glyphicon glyphicon-comment"></span>
+                </div>
+              </li>
+            </ul>
+            <div class="text-center">
+              <button type="button" class="btn btn-default">Mostrar todos</button>
+            </div>
+            <div class="row map-navbar navbar-default">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-2">
+                    <button type="button" class="btn btn-success">Comentar</button>
+                  </div>
+                  <div class="col-md-3 col-md-offset-7">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Pesquisar nos comentários">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conversations">
+              <div class="row question conversation">
+                <div class="col-md-2">
+                  <img src="images/avatar.jpg" class="img-circle">
+                  <div class="text-center">
+                    <p>Tatiana Dutra Perez</p>
+                  </div>
+                </div>
+                <div class="col-md-10 text">
+                  <p>Hello! At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.</p>
+                </div>
+              </div>
+              <div class="row answer conversation">
+                <div class="col-md-2">
+                  <img src="images/avatar.jpg" class="img-circle">
+                  <div class="text-center">
+                    <p>Tatiana Dutra Perez</p>
+                  </div>
+                </div>
+                <div class="col-md-10 text">
+                  <p>Hello! At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.</p>
+                </div>
+              </div>
+              <div class="row question conversation">
+                <div class="col-md-2">
+                  <img src="images/avatar.jpg" class="img-circle">
+                  <div class="text-center">
+                    <p>Tatiana Dutra Perez</p>
+                  </div>
+                </div>
+                <div class="col-md-10 text">
+                  <p>Hello! At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.</p>
+                </div>
+              </div>
+              <div class="row question conversation">
+                <div class="col-md-2">
+                  <img src="images/avatar.jpg" class="img-circle">
+                  <div class="text-center">
+                    <p>Tatiana Dutra Perez</p>
+                  </div>
+                </div>
+                <div class="col-md-10 text">
+                  <p>Hello! At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.</p>
+                </div>
+              </div>
+              <div class="row answer conversation">
+                <div class="col-md-2">
+                  <img src="images/avatar.jpg" class="img-circle">
+                  <div class="text-center">
+                    <p>Tatiana Dutra Perez</p>
+                  </div>
+                </div>
+                <div class="col-md-10 text">
+                  <p>Hello! At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.</p>
+                </div>
+              </div>
+              <div class="row question conversation">
+                <div class="col-md-2">
+                  <img src="images/avatar.jpg" class="img-circle">
+                  <div class="text-center">
+                    <p>Tatiana Dutra Perez</p>
+                  </div>
+                </div>
+                <div class="col-md-10 text">
+                  <p>Hello! At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.</p>
+                </div>
+              </div>
+            </div>
           </section>
-          <section class="products-list">
+          <section class="last">
             <div class="icon-title">
               <div class="how-it-works-icon circle">
                 <span class="glyphicon glyphicon-question-sign"></span>
